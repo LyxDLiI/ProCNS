@@ -1,0 +1,9 @@
+bilateralfilter.cpp
+bilateralfilter.py
+bilateralfilter_wrap.cxx
+permutohedral.cpp
+setup.py
+bilateralfilter.egg-info/PKG-INFO
+bilateralfilter.egg-info/SOURCES.txt
+bilateralfilter.egg-info/dependency_links.txt
+bilateralfilter.egg-info/top_level.txt

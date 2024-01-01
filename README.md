@@ -39,7 +39,9 @@ bash run.sh
 bash test.sh
 ```
 ## 6. Result
+<div align = "center">
 ![TEL](image/output_table.png)
+</div>
 ![TEL](image/output.png)
 # Acknowledgement
 * [WSL4MIS](https://github.com/HiLab-git/WSL4MIS)

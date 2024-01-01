@@ -38,7 +38,9 @@ bash run.sh
 ``` bash
 bash test.sh
 ```
-
+## 6. Result
+![TEL](image/output_table.png)
+![TEL](image/output.png)
 # Acknowledgement
 * [WSL4MIS](https://github.com/HiLab-git/WSL4MIS)
 * [FedICRA](https://github.com/llmir/FedICRA)

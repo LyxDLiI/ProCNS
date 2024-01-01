@@ -39,10 +39,10 @@ bash run.sh
 bash test.sh
 ```
 ## 6. Result
-<div align = "center">
-![TEL](image/output_table.png)
+<div style="text-align: center;">
+  <img src="image/output_table.png" alt="TEL">
+  <img src="image/image/output.png" alt="TEL">
 </div>
-![TEL](image/output.png)
 # Acknowledgement
 * [WSL4MIS](https://github.com/HiLab-git/WSL4MIS)
 * [FedICRA](https://github.com/llmir/FedICRA)

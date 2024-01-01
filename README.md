@@ -31,12 +31,12 @@ Data preprocessing includes normalizing all image intensities to between 0 and 1
 
 ## 4. Train the model
 ``` bash 
-python flower_runner.py --port 8097 --procedure flower_pCE_2D_GateCRFMsacleTreeEnergyLoss_Ours --exp faz/WeaklySeg_pCE --base_lr 0.01 --img_class faz --model unet_lc_multihead --gpus 0 1 2 3 4 5 --strategy FedICRA --alpha 1 --rep_iters 3
+bash run.sh
 ```
 
 ## 5. Test the model
 ``` bash
-python -u test.py --client client0 --num_classes 2 --in_chns 1 --root_path ../test/ --img_class faz --exp faz/ --min_num_clients 5 --cid 0 --model unet_lc_multihead
+bash test.sh
 ```
 
 # Acknowledgement

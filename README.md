@@ -1,1 +1,46 @@
 # ProCNS: Progressive Prototype Calibration and Noise Suppression for Weakly-Supervised Medical Image Segmentation
+The official implementation of the paper: [**ProCNS: Progressive Prototype Calibration and Noise Suppression for Weakly-Supervised Medical Image Segmentation**]
+![TEL](image/framework.png)
+**Abstract.** Weakly-supervised segmentation (WSS) has emerged as a solution to mitigate the conflict between annotation cost and model performance by adopting sparse annotation formats (e.g., point, scribble, block, etc.). Typical approaches attempt to exploit anatomy and topology priors to directly expand sparse annotations into pseudo-labels. However, due to lack of attention to the ambiguous edges in medical images and insufficient exploration of sparse supervision, existing approaches tend to generate erroneous and overconfident pseudo proposals in noisy regions, leading to cumulative model error and performance degradation. In this work, we propose a novel WSS approach, named ProCNS, encompassing two synergistic modules devised with the principles of progressive prototype calibration and noise suppression. Specifically, we design a Prototype-based Regional Spatial Affinity (PRSA) loss to maximize the pair-wise affinities between spatial and semantic elements, providing our model of interest with more reliable guidance. The affinities are derived from the input images and the prototype-refined predictions. Meanwhile, we propose an Adaptive Noise Perception and Masking (ANPM) module to obtain more enriched and representative prototype representations, which adaptively identifies and masks noisy regions within the pseudo proposals, reducing potential erroneous interference during prototype computation. Furthermore, we generate specialized soft pseudo-labels for the noisy regions identified by ANPM, providing supplementary supervision. Extensive experiments on three medical image segmentation tasks involving different modalities demonstrate that the proposed framework significantly outperforms representative state-of-the-art methods.
+# Requirements
+Some important required packages are listed below:
+* Pytorch 1.10.2
+* cudatoolkit 11.3.1
+* efficientnet-pytorch 0.7.1
+* tensorboardx 2.5.1
+* medpy 0.4.0
+* scikit-image 0.19.3
+* simpleitk  2.1.1.2
+* flwr 1.0.0
+* Python >= 3.9
+# Usage
+## 1. Clone this project
+``` bash
+git clone https://github.com/LyxDLiI/ProCNS.git
+cd ProCNS/code
+```
+
+## 2. Create a conda environment
+``` bash
+conda env create -n procns -f procns.yaml
+conda activate procns
+pip install tree_filter-0.1-cp39-cp39-linux_x86_64.whl
+```
+## 3. Pre-processing
+Data preprocessing includes normalizing all image intensities to between 0 and 1, while data augmentation includes randomly flipping images horizontally and vertically as well as rotation (spanning from -45° to 45°).
+
+## 4. Train the model
+``` bash 
+python flower_runner.py --port 8097 --procedure flower_pCE_2D_GateCRFMsacleTreeEnergyLoss_Ours --exp faz/WeaklySeg_pCE --base_lr 0.01 --img_class faz --model unet_lc_multihead --gpus 0 1 2 3 4 5 --strategy FedICRA --alpha 1 --rep_iters 3
+```
+
+## 5. Test the model
+``` bash
+python -u test.py --client client0 --num_classes 2 --in_chns 1 --root_path ../test/ --img_class faz --exp faz/ --min_num_clients 5 --cid 0 --model unet_lc_multihead
+```
+
+# Acknowledgement
+* [WSL4MIS](https://github.com/HiLab-git/WSL4MIS)
+* [FedICRA](https://github.com/llmir/FedICRA)
+
+

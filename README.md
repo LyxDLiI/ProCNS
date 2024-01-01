@@ -42,6 +42,8 @@ bash test.sh
 <div style="text-align: center;">
   <img src="image/output_table.png" alt="TEL">
 </div>
+
+## 7. Visualization
 <div>
   <img src="image/output.png" alt="TEL">
 </div>

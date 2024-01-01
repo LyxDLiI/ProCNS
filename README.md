@@ -43,6 +43,7 @@ bash test.sh
   <img src="image/output_table.png" alt="TEL">
   <img src="image/image/output.png" alt="TEL">
 </div>
+
 # Acknowledgement
 * [WSL4MIS](https://github.com/HiLab-git/WSL4MIS)
 * [FedICRA](https://github.com/llmir/FedICRA)

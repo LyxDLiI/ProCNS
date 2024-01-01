@@ -11,7 +11,6 @@ Some important required packages are listed below:
 * medpy 0.4.0
 * scikit-image 0.19.3
 * simpleitk  2.1.1.2
-* flwr 1.0.0
 * Python >= 3.9
 # Usage
 ## 1. Clone this project

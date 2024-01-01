@@ -41,11 +41,9 @@ bash test.sh
 ## 6. Result
 <div style="text-align: center;">
   <img src="image/output_table.png" alt="TEL">
+  <img src="image/output.png" alt="TEL">
 </div>
 
-<div style="text-align: center;">
-  <img src="image/image/output.png" alt="TEL">
-</div>
 
 # Acknowledgement
 * [WSL4MIS](https://github.com/HiLab-git/WSL4MIS)

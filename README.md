@@ -12,7 +12,7 @@ The official implementation of the paper: [**ProCNS: Progressive Prototype Calib
 <table>
   <tbody>
     <tr>
-      <td align="center"></td>
+      <td align="center"><i>Modality</i></td>
       <td align="center">Fundus</td>
       <td align="center">OCTA</td>
       <td align="center">Endoscopy</td>
@@ -21,7 +21,7 @@ The official implementation of the paper: [**ProCNS: Progressive Prototype Calib
       <td align="center">H\&E</td>
     </tr>
     <tr>
-      <td align="Sparse annotation"></td>
+      <td align="Sparse Annotation Format"></td>
       <td align="center">scribble</td>
       <td align="center">point</td>
       <td align="center">block</td>

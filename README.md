@@ -42,7 +42,7 @@ The official implementation of the paper: [**ProCNS: Progressive Prototype Calib
       <td align="center"><i>Processed (.h5)</i></td>
       <td align="center"><a href="https://github.com/LyxDLiI/ProCNS/tree/main/data">Download</a></td> 
       <td align="center"><a href="https://github.com/LyxDLiI/ProCNS/tree/main/data">Download</a></td>  
-      <td align="center"><a href="https//:github.com/LyxDLiI/ProCNS/tree/main/data">Download</a></td>  
+      <td align="center"><a href="https://github.com/LyxDLiI/ProCNS/tree/main/data">Download</a></td> 
       <td align="center"><a href="https//:github.com/HiLab-git/WSL4MIS/tree/main/data/ACDC">Download</a></td> 
       <td align="center"><a>N/A</a></td>  
       <td align="center"><a>N/A</a></td>  

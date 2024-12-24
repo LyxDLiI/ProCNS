@@ -6,7 +6,50 @@ The official implementation of the paper: [**ProCNS: Progressive Prototype Calib
 - 2024-12-23, 🎉🎉 Our paper "[**ProCNS: Progressive Prototype Calibration and Noise Suppression for Weakly-Supervised Medical Image Segmentation**](https://arxiv.org/abs/2401.14074)" has been accepted by **IEEE Journal of Biomedical and Health Informatics (JBHI)**.
   
 
+# Datasets
+## Download the Processed Datasets (N/A will be included in subsequent updates.)
 
+<table>
+  <tbody>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Fundus</td>
+      <td align="center">OCTA</td>
+      <td align="center">Endoscopy</td>
+      <td align="center">Cardiac MRI</td>
+      <td align="center">Brain Tumor MRI</td>
+      <td align="center">H\&E</td>
+    </tr>
+    <tr>
+      <td align="Sparse annotation"></td>
+      <td align="center">scribble</td>
+      <td align="center">point</td>
+      <td align="center">block</td>
+      <td align="center">scribble</td>
+      <td align="center">block</td>
+      <td align="center">point</td>
+    </tr>
+    <tr>
+      <td align="center"><i>Origin</i></td>
+      <td align="center"><a href="https://drive.google.com/drive/folders/10lZwgMFT6gV-Tj6gpFfd-TVJC3b9_808?usp=drive_link">Download</a></td> 
+      <td align="center"><a href="https://drive.google.com/drive/folders/1HtHCYwpkqcuy5_BAt4gCiC5EN8ZUwMMW?usp=drive_link">Download</a></td>  
+      <td align="center"><a href="https://drive.google.com/drive/folders/1xB3X0oM3fg5QIZ86LQTpHjlgmHURREV3?usp=drive_link">Download</a></td>  
+      <td align="center"><a href="https://github.com/HiLab-git/WSL4MIS/tree/main/data/ACDC">Download</a></td> 
+      <td align="center"><a href="https://www.kaggle.com/datasets/debobratachakraborty/brats2019-dataset">Download</a></td>  
+      <td align="center"><a href="https://ieeexplore.ieee.org/abstract/document/7872382">Paper</a></td>  
+    </tr>
+    <tr>
+      <td align="center"><i>Processed (.h5)</i></td>
+      <td align="center"><a href="https://github.com/LyxDLiI/ProCNS/tree/main/data">Download</a></td> 
+      <td align="center"><a href="https://github.com/LyxDLiI/ProCNS/tree/main/data">Download</a></td>  
+      <td align="center"><a href="https//:github.com/LyxDLiI/ProCNS/tree/main/data">Download</a></td>  
+      <td align="center"><a href="https//:github.com/HiLab-git/WSL4MIS/tree/main/data/ACDC">Download</a></td> 
+      <td align="center"><a>N/A</a></td>  
+      <td align="center"><a>N/A</a></td>  
+    </tr>
+
+  </tbody>
+</table>
 # Requirements
 Some important required packages are listed below:
 * Pytorch 1.10.2

@@ -30,7 +30,7 @@ The official implementation of the paper: [**ProCNS: Progressive Prototype Calib
       <td align="center">point</td>
     </tr>
     <tr>
-      <td align="center"><i>Origin</i></td>
+      <td align="center"><i>Source</i></td>
       <td align="center"><a href="https://drive.google.com/drive/folders/10lZwgMFT6gV-Tj6gpFfd-TVJC3b9_808?usp=drive_link">Download</a></td> 
       <td align="center"><a href="https://drive.google.com/drive/folders/1HtHCYwpkqcuy5_BAt4gCiC5EN8ZUwMMW?usp=drive_link">Download</a></td>  
       <td align="center"><a href="https://drive.google.com/drive/folders/1xB3X0oM3fg5QIZ86LQTpHjlgmHURREV3?usp=drive_link">Download</a></td>  

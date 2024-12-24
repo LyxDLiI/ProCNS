@@ -31,9 +31,9 @@ The official implementation of the paper: [**ProCNS: Progressive Prototype Calib
     </tr>
     <tr>
       <td align="center"><i>Source</i></td>
-      <td align="center"><a href="https://drive.google.com/drive/folders/10lZwgMFT6gV-Tj6gpFfd-TVJC3b9_808?usp=drive_link">Download</a></td> 
-      <td align="center"><a href="https://drive.google.com/drive/folders/1HtHCYwpkqcuy5_BAt4gCiC5EN8ZUwMMW?usp=drive_link">Download</a></td>  
-      <td align="center"><a href="https://drive.google.com/drive/folders/1xB3X0oM3fg5QIZ86LQTpHjlgmHURREV3?usp=drive_link">Download</a></td>  
+      <td align="center"><a href="https://drive.google.com/drive/folders/1tCed5NFJoEZgW2dT2nyEWSbU9-ihY7EO">Download</a></td> 
+      <td align="center"><a href="https://drive.google.com/drive/folders/13UZ0XdOba0Mi7q60a6cp-I4gj-uENnbj">Download</a></td>  
+      <td align="center"><a href="https://drive.google.com/drive/folders/16keFJ_qpg4G1MJMDPdejSB6FZe_xYbM2">Download</a></td>  
       <td align="center"><a href="https://github.com/HiLab-git/WSL4MIS/tree/main/data/ACDC">Download</a></td> 
       <td align="center"><a href="https://www.kaggle.com/datasets/debobratachakraborty/brats2019-dataset">Download</a></td>  
       <td align="center"><a href="https://ieeexplore.ieee.org/abstract/document/7872382">Paper</a></td>  

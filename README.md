@@ -96,6 +96,11 @@ bash test.sh
   <img src="image/output.png" alt="TEL">
 </div>
 
+# Acknowledgement
+* [WSL4MIS](https://github.com/HiLab-git/WSL4MIS)
+* [FedICRA](https://github.com/llmir/FedICRA)
+* [FedLPPA](https://github.com/llmir/FedLPPA)
+
 # Citation
 If you find FedLPPA useful in your research, please consider citing:
 ```
@@ -108,9 +113,6 @@ If you find FedLPPA useful in your research, please consider citing:
 ```
 If you have any questions, please feel free to contact us.
 
-# Acknowledgement
-* [WSL4MIS](https://github.com/HiLab-git/WSL4MIS)
-* [FedICRA](https://github.com/llmir/FedICRA)
-* [FedLPPA](https://github.com/llmir/FedLPPA)
+
 
 

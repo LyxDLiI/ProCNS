@@ -21,7 +21,7 @@ The official implementation of the paper: [**ProCNS: Progressive Prototype Calib
       <td align="center">H\&E</td>
     </tr>
     <tr>
-      <td align="Sparse Annotation Format"></td>
+      <td align="center"><i>Sparse Annotation Format</i></td>
       <td align="center">scribble</td>
       <td align="center">point</td>
       <td align="center">block</td>

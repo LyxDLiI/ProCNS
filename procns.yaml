@@ -131,7 +131,6 @@ dependencies:
     - torch-tb-profiler==0.4.1
     - torchmetrics==1.0.3
     - tqdm==4.64.0
-    - tree-filter==0.1
     - urllib3==1.26.12
     - wcwidth==0.2.5
     - werkzeug==2.2.2

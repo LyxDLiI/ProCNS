@@ -5,7 +5,7 @@ The official implementation of the paper: [**ProCNS: Progressive Prototype Calib
 # 💡Framework
 ![TEL](image/framework.png)
 
-## 🌟 Why Cite This Work?
+# 🌟 Why Cite This Work?
 **1. Boundary Matters in Medical Weakly-Supervised Medical Image Segmentation**  
 ProCNS systematically relieves error accumulation in ambiguous boundary regions. Our progressive prototype calibration improves edge segmentation by **3.25-5.43% DSC** through:
 - **PRSA Loss**: Joint spatial-semantic affinity modeling (Eq.4-10)

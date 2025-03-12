@@ -102,12 +102,12 @@ Data preprocessing includes normalizing all image intensities to between 0 and 1
 
 ## 4. Train the model
 ``` bash 
-bash run.sh
+run.sh
 ```
 
 ## 5. Test the model
 ``` bash
-bash test.sh
+test.sh
 ```
 ## 6. Result
 <div style="text-align: center;">
@@ -125,13 +125,14 @@ bash test.sh
 * [FedLPPA](https://github.com/llmir/FedLPPA)
 
 # Citation
-If you find FedLPPA useful in your research, please consider citing:
+If you find ProCNS useful in your research, please consider citing:
 ```
 @article{liu2024procns,
   title={ProCNS: Progressive Prototype Calibration and Noise Suppression for Weakly-Supervised Medical Image Segmentation},
-  author={Liu, Y and Lin, L and Wong, KKY and Tang, X},
-  journal={arXiv preprint arXiv:2401.14074},
-  year={2024}
+  author={Liu, Yixiang and Lin, Li and Wong, Kenneth KY and Tang, Xiaoying},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2024},
+  publisher={IEEE}
 }
 ```
 If you have any questions, please feel free to contact us.

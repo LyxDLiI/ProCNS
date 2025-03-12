@@ -71,7 +71,7 @@ The Unified WSS benchmark covering:
 
   </tbody>
 </table>
-N/A will be included in subsequent updates. If you need the _.h5_ format of the BraTS2019 or H&E dataset, Please feel free to contact us.
+N/A will be included in subsequent updates. If you need the '.h5' format processed datasets of the BraTS2019 and H&E, please feel free to contact us.
 
 # Requirements
 Some important required packages are listed below:

@@ -1,5 +1,25 @@
 # ProCNS: Progressive Prototype Calibration and Noise Suppression for Weakly-Supervised Medical Image Segmentation
 The official implementation of the paper: [**ProCNS: Progressive Prototype Calibration and Noise Suppression for Weakly-Supervised Medical Image Segmentation**](https://arxiv.org/abs/2401.14074)
+
+## 🌟 Why Cite This Work?
+**1. Boundary Matters in Medical Weakly-Supervised Medical Image Segmentation**  
+ProCNS systematically relieves error accumulation in ambiguous boundary regions. Our progressive prototype calibration improves edge segmentation by **3.25-5.43% DSC** through:
+- **PRSA Loss**: Joint spatial-semantic affinity modeling (Eq.4-10)
+- **ANPM Module**: Dynamic noise masking (Fig.2)
+
+**2. Foundation Model Meets Weak Supervision**  
+Pioneering integration of SAM-Med2D into WSS:
+- Generate high-quality pseudo-labels via point prompts (sparse labels) (Fig.7)
+- Achieve **93.30 DSC** when combined with ProCNS (Table 9)
+
+**3. Unified Benchmark Released**  
+The Unified WSS benchmark covering:
+✅ 6 imaging modalities  
+✅ 3 annotation types  
+✅ Standard evaluation protocols  
+Download: [DATASET_ZIP](link)
+
+
 ![TEL](image/framework.png)
 
 # 🔔News

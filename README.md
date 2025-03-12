@@ -21,6 +21,8 @@ The Unified WSS benchmark covering:
 ✅ 3 annotation types  
 ✅ Standard evaluation protocols  
 
+The framework is as follows:
+
 ![TEL](image/framework.png)
 
 

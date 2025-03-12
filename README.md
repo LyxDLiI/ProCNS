@@ -39,7 +39,7 @@ The Unified WSS benchmark covering:
       <td align="center">Endoscopy</td>
       <td align="center">Cardiac MRI</td>
       <td align="center">Brain Tumor MRI</td>
-      <td align="center">H\&E</td>
+      <td align="center">H&E</td>
     </tr>
     <tr>
       <td align="center"><i>Sparse Annotation Format</i></td>
@@ -71,8 +71,7 @@ The Unified WSS benchmark covering:
 
   </tbody>
 </table>
-N/A will be included in subsequent updates.
-
+N/A will be included in subsequent updates. If you need the _.h5_ format of the BraTS2019 or H&E dataset, Please feel free to contact us.
 # Requirements
 Some important required packages are listed below:
 * Pytorch 1.10.2

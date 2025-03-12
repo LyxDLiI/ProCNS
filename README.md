@@ -10,8 +10,8 @@ The official implementation of the paper: [**ProCNS: Progressive Prototype Calib
 
 **1. Boundary Matters in Medical Weakly-Supervised Medical Image Segmentation**  
 ProCNS systematically relieves error accumulation in ambiguous boundary regions. Our progressive prototype calibration improves edge segmentation by **3.25-5.43% DSC** through:
-- **PRSA Loss**: Joint spatial-semantic affinity modeling (Eq.4-10)
-- **ANPM Module**: Dynamic noise masking (Fig.2)
+- **PRSA Loss**: Joint spatial-semantic affinity modeling
+- **ANPM Module**: Dynamic noise masking
 
 **2. Foundation Model Meets Weak Supervision**  
 Pioneering integration of SAM-Med2D into WSS:

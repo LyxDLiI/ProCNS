@@ -14,7 +14,7 @@ ProCNS systematically relieves error accumulation in ambiguous boundary regions.
 - **ANPM Module**: Dynamic noise masking
 
 **2. Foundation Model Meets Weak Supervision**  
-Pioneering integration of SAM-Med2D into WSS:
+Integration of SAM-Med2D into WSS:
 - Prove that leveraging foundation models to assist WSS is a promising direction
 - Generate high-quality pseudo-labels via point prompts (sparse labels) (Fig.7)
 - Achieve **93.30 DSC** when combined with ProCNS (Table 9)

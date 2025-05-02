@@ -122,6 +122,7 @@ test.sh
 * [WSL4MIS](https://github.com/HiLab-git/WSL4MIS)
 * [FedICRA](https://github.com/llmir/FedICRA)
 * [FedLPPA](https://github.com/llmir/FedLPPA)
+* [MedSAM2D](https://github.com/OpenGVLab/SAM-Med2D)
 
 # Citation
 If you find ProCNS useful in your research, please consider citing:

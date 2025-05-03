@@ -5,7 +5,7 @@ The official implementation of the paper: [**ProCNS: Progressive Prototype Calib
 # 💡 Framework
 ![TEL](image/framework.png)
 
-# 🌟 Motivation (We Hope)
+# 🌟 Unified Boundary-Foundation WSS
 **We hope this work provides insights for researchers exploring😊**:  
 
 **1. Boundary Matters in Medical Weakly-Supervised Medical Image Segmentation**  
